@@ -5,7 +5,7 @@ function Footer() {
     return (
         <footer className="footer">
             <span>
-                Desenvolvido com <i className="fa fa-heart text-danger"></i> por<strong>Weverton Guimarães</strong>
+                Desenvolvido com <i className="fa fa-heart text-danger"></i> por<strong> Weverton Guimarães</strong>
             </span>
         </footer>
     )
