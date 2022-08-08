@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import Main from "../templates/main/Main";
 import axios from 'axios'
-import './User.css'
+import './User.CSS'
 const headerProps = {
     icon: 'users',
     title: 'Usuários',
@@ -126,7 +126,7 @@ export default class UserCrud extends Component {
     renderRows() {
         return this.state.list.map(user => {
             return (
-                <tr key={user.id}>
+                <tr key={user.id} data-testid="table-1">
                     <td>{user.id}</td>
                     <td>{user.name}</td>
                     <td>{user.email}</td>
@@ -135,7 +135,7 @@ export default class UserCrud extends Component {
                             onClick={() => this.load(user)}>
                             <i className="fa fa-pencil"></i>
                         </button>
-                        <button className="btn btn-danger ml-2"
+                        <button className="btn btn-danger ml-2" data-testid='delete-1'
                             onClick={() => this.remove(user)}>
                             <i className="fa fa-trash"></i>
                         </button>

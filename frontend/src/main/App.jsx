@@ -7,7 +7,7 @@ import { BrowserRouter } from 'react-router-dom'
 
 import Logo from '../components/templates/logo/Logo'
 import Nav from '../components/templates/nav/Nav'
-import Routes from './Routes'
+import Routes from './Router'
 import Footer from '../components/templates/footer/Footer'
 
 function App(){
