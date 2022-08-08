@@ -1,5 +1,5 @@
 # Trabalho de Testes de Software
-    Esse trabalho foi desenvolvido com um intuito de criar um crud basico e fazer testes a unitários!
+    Esse trabalho foi desenvolvido com um intuito de criar um crud básico e fazer testes a unitários!
 
 ## Tecnologias utilizadas
 
